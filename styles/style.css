@@ -32,16 +32,6 @@
   content: " →";
 }
 
-.container-centered {
-  margin-top: 100px;
-  display: flex;
-  justify-content: center;
-}
-
-.container-centered_column {
-  flex-direction: column;
-}
-
 .header {
   height: 100vh;
   min-height: 600px;
@@ -201,7 +191,6 @@
   margin: 0;
 }
 
-/* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
   color: white;
@@ -260,6 +249,10 @@
   content: " →";
 }
 
+/*### Section FEYNMAN end ###*/
+
+/*### Section KAUFMAN start ###*/
+
 .kaufman {
   position: relative;
   display: flex;
@@ -309,6 +302,10 @@
   line-height: 1.2;
 }
 
+/*### Section KAUFMAN end ###*/
+
+/*### FOOTER start ###*/
+
 .footer {
   min-height: 350px;
   background-color: #1f1f1f;
@@ -342,6 +339,9 @@
   line-height: 25px;
 }
 
+/*Классы footer__column_content_info и footer__column_content_social 
+явкно указаны в рефе, но небходимости их стилизовать я не вижу.
+ По сути это обертка.*/
 .footer__column_content_info {
 }
 
@@ -372,3 +372,5 @@
   width: 16px;
   height: 16px;
 }
+
+/*### FOOTER end ###*/
