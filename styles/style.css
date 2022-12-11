@@ -174,8 +174,9 @@
 
 .table__text {
   font-size: 18px;
-  line-height: 34px;
+  line-height: 1.2;
   margin: 0;
+  margin-top: 20px;
 }
 
 .table__cell_theme_dark {
