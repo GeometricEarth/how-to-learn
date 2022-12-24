@@ -41,6 +41,7 @@
   align-items: center;
   padding-left: 64px;
   position: relative;
+  overflow: hidden;
 }
 
 .header__title {
@@ -80,6 +81,16 @@
   height: 568px;
   background-color: #2f80ed;
   z-index: 0;
+}
+
+.header__square-pic_rotated {
+  animation: rotation 20s infinite linear;
+}
+
+@keyframes rotation {
+  to {
+    rotate: 360deg;
+  }
 }
 
 /*### Section DESCRIPTION start ###*/
