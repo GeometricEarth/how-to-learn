@@ -1,0 +1,9 @@
+@keyframes rotation {
+  to {
+    rotate: 360deg;
+  }
+}
+
+.header__square-pic_rotated {
+  animation: rotation 20s infinite linear;
+}
