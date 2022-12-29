@@ -15,8 +15,8 @@
 }
 
 .resources__link:hover .resources__logo {
-  transition: all ease-in-out 0.4s;
-  filter: contrast(50%) drop-shadow(1px 1px 1px rgb(77, 75, 97));
+  transition: all ease-in 0.4s;
+  filter: contrast(50%);
 }
 
 .resources__link:hover::after {
